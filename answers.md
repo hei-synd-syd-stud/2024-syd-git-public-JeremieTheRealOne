@@ -38,12 +38,32 @@ Une partie du dossier README.md est prêt à être commit mais une autre partie 
 
 ### Task 6
 
-Le **checkout commit** permet de revenir à un commit spécifique, cela permet de ne pas modifier l'historique de la branche.
+Le **checkout commit** permet de revenir à un commit spécifique, cela permet de ne pas modifier l'historique de la branche. Les fichiers ont été déplacé afin de ne pas les modifier.
 
-Le **checkout main** permet de revenir à la branche principale.
+Le **checkout main** permet de revenir à la branche principale. Donc cela a fait réapparaître les fichiers dans le dossier.
 
 ## Gitgraph
 
 ### Task 7
+
+- **`1. develop`** : C'est une branche secondaire qui est souvent utilisée pour le développement des fonctionnalités.
+
+- **`2. baa6795`** : Il s’agit d’un identifiant abrégé (hash) du commit. Chaque commit a un identifiant unique qui permet de l’identifier.
+
+- **`3. Merge branch 'feature-auth' into 'develop'`** : C'est le message de commit indiquant qu'une branche appelée `feature-auth` a été fusionnée dans la branche `develop`.
+
+- **`4 ByteMe Bob <bob.byteme@hevs.ch>`** : Il s'agit de l'auteur du commit, avec son adresse e-mail.
+
+- **`5. v1.0.0`** : C'est une **étiquette (tag)** indiquant une version spécifique du projet. Les tags sont souvent utilisés pour marquer des versions importantes.
+
+- **`6. Commit`**: C'est un merge de la branche feature-auth dans la branche develop par un autre utilisateur.
+
+- **`7. feature-auth`** : C'est une branche de fonctionnalité (feature branch) utilisée pour développer une nouvelle fonctionnalité. Ce commit a été réalisé par un autre utilisateur 
+
+- **`8. Merge`** : C'est un merge de la branche develop dans le main afin d'avoir une première version du projet.
+
+- **9. develop** : C'est une branche secondaire comprennant tout le développement du projet. La branche a été merge dans le main pour une première version. Ensuite, des nouvelles modifications ont été ajouté. 
+
+- **`10. Branche principale`** : C'est la branche main avec le commt initial et une version v1.0.0 du projet.
 
 ![Gitgraph](img/gitgraph.svg)
