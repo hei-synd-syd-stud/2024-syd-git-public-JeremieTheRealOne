@@ -38,7 +38,9 @@ Une partie du dossier README.md est prêt à être commit mais une autre partie 
 
 ### Task 6
 
+Le **checkout commit** permet de revenir à un commit spécifique, cela permet de ne pas modifier l'historique de la branche.
 
+Le **checkout main** permet de revenir à la branche principale.
 
 ## Gitgraph
 
